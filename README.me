@@ -1,0 +1,87 @@
+# Predicción del FIFA World Cup 2026 ⚽
+
+Proyecto **end-to-end de Machine Learning aplicado al fútbol** para predecir resultados de partidos del **FIFA World Cup 2026**, integrando modelado predictivo, **IA generativa**, análisis exploratorio, visualización y despliegue web.
+
+---
+
+## Descripción del Proyecto
+
+Este repositorio implementa un pipeline completo que incluye:
+
+- Modelo predictivo base entrenado con datos históricos de partidos internacionales  
+- Mejora del rendimiento mediante **IA generativa (CTGAN)** para generación de datos sintéticos  
+- Análisis exploratorio (EDA), visualizaciones interactivas y storytelling en Jupyter Notebook  
+- Aplicación web interactiva desarrollada con **Streamlit**  
+- Persistencia de modelos y enfoque básico de **MLOps**  
+
+El proyecto se centra en **análisis predictivo deportivo**, demostrando competencias en metodología ML, XGBoost, IA generativa, comunicación de resultados y despliegue.
+
+---
+
+## Requisitos Previos
+
+- **Python 3.10 o superior** (recomendado Python 3.12)
+- Git instalado
+- Sistema operativo: Windows, macOS o Linux
+
+Puedes comprobar tu versión de Python con:
+```bash
+python --version
+
+## Instalación Completa (Todo en Uno)
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tuusuario/mundial2026-prediction.git
+cd mundial2026-prediction
+
+###2. Crear y activar un entorno virtual
+
+Windows
+
+python -m venv .venv
+.venv\Scripts\activate
+
+macOS / Linux
+
+python -m venv .venv
+source .venv/bin/activate
+
+### 3. Instalar TODAS las dependencias
+pip install \
+pandas \
+numpy \
+scikit-learn \
+xgboost \
+sdv \
+streamlit \
+plotly \
+seaborn \
+matplotlib \
+joblib \
+nbformat \
+ipython \
+ipykernel
+
+##Ejecución del Proyecto
+python model_base.py
+
+### Modelo Mejorado con IA Generativa
+python model_generative.py
+
+## Ejecución local
+Aplicación Web (Streamlit)
+streamlit run app.py
+
+Accede desde el navegador:
+
+http://localhost:8501
+
+
+Funcionalidades:
+-Selección de equipos
+-Diferencia de ELO
+-Impacto de lesiones
+-Predicción de probabilidades
+-Visualización de grupos del Mundial
+
